@@ -41,5 +41,27 @@ nav {
     top: 0;
     background-color: #ffe3a6;
     z-index: 100; 
+}
 
+#blog .container {
+    display: flex;
+  }
 
+  article {
+    overflow: auto;
+  }
+  
+  .image-container {
+    float: right;
+    margin: 0 0 1em 1em;
+  }
+  
+  .image-container img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .caption {
+    font-style: italic;
+    text-align: center;
+  }
