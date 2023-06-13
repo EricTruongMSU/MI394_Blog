@@ -33,9 +33,7 @@ p   {
 ul{
     line-height: 1.5em;
 }
-#blog {
-    border-top: 3px dotted #474747;
-}
+
 nav {
     position: sticky;
     top: 0;
@@ -45,23 +43,38 @@ nav {
 
 #blog .container {
     display: flex;
-  }
+  }  
 
-  article {
-    overflow: auto;
-  }
-  
   .image-container {
-    float: right;
-    margin: 0 0 1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
   }
   
   .image-container img {
     width: 300px;
     height: 200px;
+    margin-bottom: 0.5em;
   }
   
   .caption {
     font-style: italic;
     text-align: center;
   }
+  
+  #blog {
+    border-top: 3px dotted #474747;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  article {
+    overflow: auto;
+    flex: 0 0 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  }
+  
