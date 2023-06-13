@@ -1,1 +1,45 @@
+body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: 60px;
+   color:rgb(0, 0, 0);
+   background-color: #dac292;
+   border-top: 10px solid;
+   padding: 40px;
+}
+
+html {
+    background-color: #b9936c;
+}
+
+h1 {
+    font-size: 3em;
+    padding:30px;
+}
+h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+p   {
+    line-height: 1.5em;
+}
+
+
+ul{
+    line-height: 1.5em;
+}
+#blog {
+    border-top: 3px dotted #474747;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #ffe3a6;
+    z-index: 100; 
+
 
